@@ -34,19 +34,19 @@ const apiKey = "ddd37312d21544e7300b23a69a2fff48";
 const query = ref("");
 const weatherData = ref({});
 
-const getWeather = (e) => {
-  if (e.key == "Enter") {
-    fetch(`${apiUrl}weather?q=${query.value}&units=metric&APPID=${apiKey}`)
-      .then((res) => {
-        return res.json();
-      })
-      .then(setResult);
-  }
+const getWeather = () => {
+  fetch(`${apiUrl}weather?q=${query.value}&units=metric&APPID=${apiKey}`)
+    .then((res) => {
+      return res.json();
+    })
+    .then((result) => {
+      weatherData.value = result;
+    });
 };
 
-const setResult = (result) => {
-  weatherData.value = result;
-};
+onMounted(() => {
+  getWeather();
+});
 
 watch(
   () => query.value,

@@ -43,13 +43,13 @@ const props = defineProps({
 const weatherIcon = computed(() => {
   switch (props.weatherData.weather[0].main) {
     case "Clear":
-      return "/_nuxt/assets/icons/sunny.png";
+      return "/icons/sunny.png";
     case "Clouds":
-      return "/_nuxt/assets/icons/cloudy.png";
+      return "/icons/cloudy.png";
     case "Rain":
-      return "/_nuxt/assets/icons/rainy.png";
+      return "/icons/rainy.png";
     case "Snow":
-      return "/_nuxt/assets/icons/snowy.png";
+      return "/icons/snowy.png";
     default:
       return "";
   }

@@ -7,7 +7,9 @@
 <script setup>
 const currentDate = ref(new Date().toLocaleString("en-GB"));
 
-setInterval(() => {
-  currentDate.value = new Date().toLocaleString("en-GB");
-}, 1000);
+onMounted(() => {
+  setInterval(() => {
+    currentDate.value = new Date().toLocaleString("en-GB");
+  }, 1000);
+});
 </script>

@@ -2,7 +2,7 @@
   <div>
     <div class="flex items-center justify-center gap-16 pt-6">
       <div class="flex flex-col items-center font-medium">
-        <img src="../assets/icons/humidity.png" class="w-[1.6rem]" />
+        <img src="/icons/humidity.png" class="w-[1.6rem]" />
         Humidity
         <p>{{ Math.round(weatherData.main?.humidity) }} %</p>
       </div>

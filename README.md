@@ -1,12 +1,27 @@
-# Nuxt 3 Minimal Starter
+# skyCast
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Table of contents
+
+- [Introduction](#introduction)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [License](#license)
+
+## Introduction
+
+<!-- This is a graduation project made for Coyotiv School of Software Engineering. -->
 
 ## Setup
 
+Clone this project to your local machine:
+
+```
+$ git clone https://github.com/xbarisaslan/skyCast.git
+```
+
 Make sure to install the dependencies:
 
-```bash
+```
 # npm
 npm install
 
@@ -20,11 +35,9 @@ yarn install
 bun install
 ```
 
-## Development Server
-
 Start the development server on `http://localhost:3000`:
 
-```bash
+```
 # npm
 npm run dev
 
@@ -72,4 +85,34 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Technologies
+
+Technologies used in the project:
+
+- Nuxt.js version: 3.10.0
+- Vue.js version: 3.4.15
+- Tailwind CSS
+
+## License
+
+MIT License
+
+Copyright (c) 2024 Baris Aslan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
